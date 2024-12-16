@@ -5,5 +5,6 @@ done=False
 while not done:
     for event in pygame.event.get():
        if event.type==pygame.QUIT:
-         pygame.QUIT
+         pygame.quit()
+         quit()
     pygame.display.flip()
